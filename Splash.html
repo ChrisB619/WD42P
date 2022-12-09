@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+</head>
+
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Montserrat:400,300,100,700,900);
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.bg {
+  /*image*/
+  background-image: url("https://images.unsplash.com/photo-1465068642484-84a40c946217?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+p,
+a{
+  margin: 0;
+  padding: 20px;
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-size: 60px;
+  padding: 10px 0;
+  font-weight: 800;
+  text-shadow: 0 0 10px white, 0 0 10px black;
+}
+
+p {
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px white, 0 0 10px black;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  padding: auto 0;
+  text-align: right;
+  color: black;
+  text-shadow: 0 0 10px white, 0 0 10px black;
+  
+  /*image*/
+   background-image: url("bg2.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.btn-bgstroke {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 30px; 
+  
+}
+
+.btn-bgstroke:hover {
+  background-color: rgb(71, 69, 69);
+  color: #33cccc;
+}
+
+</style>
+
+<body>
+
+
+
+<section class="header">
+</br></br>
+    <h1><b>Christopher Allan Bautista</b></h1>
+    <p><b>Full Stack Developer In-training</b></p>
+    <a class="btn-bgstroke" button id="myButton"><b>Enter my profile</b></a>
+          <script type="text/javascript">
+          document.getElementById("myButton").onclick = function () {
+        location.href = "testhome.html";
+    };
+</script>
+</section>
+
+</body>
+
+<html>
